@@ -1,15 +1,15 @@
 * > python -m venv ./env  
 * > ./env/Scripts/activate 
 
-==
+== \n
 pip install fastapi
 fastapi dev app/main.py
-==
+== \n
 pip freeze > requirements.txt
-==
+== \n
 vs code add interpreter so that suggestion can be come
 Shift+ctrcl+P => interpreter Path => /env/**
-==
+== \n
 1. build
 docker build -t fastapilearn .
 2. test
