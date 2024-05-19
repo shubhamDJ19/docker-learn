@@ -1,15 +1,15 @@
 * > python -m venv ./env  
 * > ./env/Scripts/activate 
 
-==
+== \n
 pip install fastapi
 fastapi dev app/main.py
-==
+== \n
 pip freeze > requirements.txt
-==
+== \n
 vs code add interpreter so that suggestion can be come
 Shift+ctrcl+P => interpreter Path => /env/**
-==
+== \n
 1. build
 docker build -t fastapilearn .
 2. test
@@ -47,3 +47,15 @@ docker push gcr.io/<project-id>/<imageName/anything-to-put-in-last-step>
 5. GO to cloud run, create a new service
 ==
  python.exe -m pip install --upgrade pip
+==
+ python -m pip install --upgrade pip setuptools
+==
+pip install python-dotenv
+==
+docker stop CONTAINER_ID
+docker kill CONTAINER_ID
+docker logs container_id
+docker logs haystackimage --follow
+docker container ls -a
+docker rm haystackimagev2
+docker run  -d -it --name -p your_image_name
