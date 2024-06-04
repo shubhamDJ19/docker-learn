@@ -47,3 +47,11 @@ docker push gcr.io/<project-id>/<imageName/anything-to-put-in-last-step>
 5. GO to cloud run, create a new service
 ==
  python.exe -m pip install --upgrade pip
+
+
+ ========
+ docker tag fastapilearn sdhimandj/testrepo:fastapilearn
+ docker push sdhimandj/testrepo:fastapilearn
+
+ docker tag fastapilearn sdhimandj/testrepo:fastapilearn
+docker push sdhimandj/testrepo:fastapilearn
