@@ -27,6 +27,7 @@ gcloud artifacts repositories create quickstart-docker-repo --repository-format=
 4. auth config add
 gcloud auth configure-docker us-central1-docker.pkg.dev
 
+<!-- us-central1-docker.pkg.dev/mankind-ai/thin-plate-repo/thin-plate:tag1 -->
 5. tag
 docker tag fastapilearn asia-south1-docker.pkg.dev/dj-ui-dev-e5ba4/fastapilearn/learn-image:tag1
 
